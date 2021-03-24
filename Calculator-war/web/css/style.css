@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/03/2021, 11:46:29 PM
+    Author     : Paula Sabogal
+*/
+body{
+    font-family: sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+    background: linear-gradient(purple, salmon);
+    width: 100%;
+    height: 100%
+}
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height:600px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    &::after{
+        content: "";
+        display: block;
+        align-items:center;
+        justify-content: center;
+        top:0;
+        width:100%;
+        height: 100%;
+        box-shadow: 0 10px 20px black;
+        opacity: 0.3;
+
+    }
+}
+.button{
+
+    width:80px;
+    height: 80px;
+    font-size: 25px;
+    text-align:center;
+    margin: 2px;
+    background: white;
+    position: relative;
+    border-radius: 40px;
+    border:none;
+
+
+
+}
+.button:hover{
+    cursor:pointer;
+    background-color: lightcoral;
+
+}
+
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:330px;
+    height: 115px;
+    text-align: right;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.campo{
+
+    width:100px;
+    height: 100px;
+    font-size: 30px;
+    text-align:center;
+    margin:10px;
+    background: white;
+    border:none;
+
+
+}
+
+.campo1{
+
+    width:90px;
+    height: 50px;
+    font-size: 30px;
+    text-align:center;
+    margin: 10px;
+    background: white;
+    border-radius: 20px;
+    border:none;
+
+
+}
+.campo1:hover{
+    cursor: pointer;
+    background-color: lightseagreen;
+    color:white;
+
+
+
+}
+.campo2{
+
+    width:90px;
+    height: 50px;
+    font-size: 30px;
+    text-align:center;
+    margin: 10px;
+    background: white;
+    border-radius: 20px;
+    border:none;
+
+
+}
+.campo2:hover{
+    cursor: pointer;
+    background-color: lightseagreen;
+    color:white;
+
+
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+    background: linear-gradient(purple, salmon);
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height:380px;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    &::after{
+        content: "";
+        display: block;
+        align-items:center;
+        justify-content: center;
+        top:0;
+        width:100%;
+        height: 100%;
+        box-shadow: 0 10px 20px black;
+        opacity: 0.3;
+
+    }
+}
+
